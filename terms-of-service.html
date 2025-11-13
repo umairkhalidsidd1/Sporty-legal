@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Sporty</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #7C3AED;
+        }
+        
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, #7C3AED 0%, #9333EA 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+        }
+        
+        h1 {
+            color: #1a1a1a;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .meta-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #7C3AED;
+        }
+        
+        .meta-info p {
+            margin: 5px 0;
+            color: #555;
+        }
+        
+        .meta-info strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        .important-notice {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .important-notice h3 {
+            color: #92400e;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        
+        .important-notice p {
+            color: #78350f;
+            margin: 0;
+        }
+        
+        h2 {
+            color: #7C3AED;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        h3 {
+            color: #1a1a1a;
+            font-size: 1.3em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #444;
+            font-size: 1.05em;
+        }
+        
+        ul, ol {
+            margin: 15px 0 15px 30px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            color: #444;
+            font-size: 1.05em;
+        }
+        
+        .highlight-box {
+            background: #f0fdf4;
+            border-left: 4px solid #10b981;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            color: #065f46;
+            font-weight: 500;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #7C3AED 0%, #9333EA 100%);
+            color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .contact-box h2 {
+            color: #fff;
+            border: none;
+            margin-top: 0;
+            padding-bottom: 0;
+        }
+        
+        .contact-box p {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        
+        .contact-box a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-box a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e5e7eb;
+            color: #666;
+            font-size: 0.95em;
+        }
+        
+        strong {
+            color: #1a1a1a;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+            
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">⚽</div>
+            <h1>Terms of Service</h1>
+            <p class="subtitle">Sporty - Sports Court Booking Application</p>
+        </div>
+        
+        <div class="meta-info">
+            <p><strong>Application Owners:</strong> Umair Khalid Siddique & Mesum Hussain Qureshi</p>
+            <p><strong>Contact Email:</strong> kicksetgoo@gmail.com</p>
+            <p><strong>Effective Date:</strong> November 13, 2025</p>
+            <p><strong>Last Updated:</strong> November 13, 2025</p>
+        </div>
+        
+        <div class="important-notice">
+            <h3>⚠️ IMPORTANT NOTICE</h3>
+            <p>By using Sporty, you agree to these Terms of Service and acknowledge that you have read and understood them. These terms govern your use of our sports court booking platform, including all features, services, and content. Please read carefully before using the Application.</p>
+        </div>
+        
+        <h2>1. Introduction</h2>
+        <p>Welcome to Sporty ("Sporty," "we," "us," "our"). Sporty is a comprehensive mobile application for iOS and Android platforms, designed to connect sports enthusiasts with available sports courts and facilities for booking and play.</p>
+        
+        <p>By downloading, installing, or using the Sporty mobile application ("Application" or "App"), available through the Apple App Store, Google Play Store, or our website, you acknowledge that you have entered into a binding contract with Sporty.</p>
+        
+        <p>Your agreement with us includes these Terms of Service and any additional terms you agree to, including our Privacy Policy (collectively referred to as the "Agreements"). If you do not agree with or cannot comply with the Agreements, you must not access or use Sporty.</p>
+        
+        <p>To use Sporty, you must:</p>
+        <ol>
+            <li>Be 18 years or older, or have your parent or guardian's consent if you are 13 years or older;</li>
+            <li>Have the legal capacity to enter into a contract with us;</li>
+            <li>Provide accurate registration information and keep it updated;</li>
+            <li>Comply with all applicable laws and regulations in your jurisdiction.</li>
+        </ol>
+        
+        <h2>2. Changes to the Agreements</h2>
+        <p>We may occasionally make changes to these Terms of Service. When there are significant changes, we will notify you as appropriate under the circumstances, such as:</p>
+        <ul>
+            <li>Displaying a prominent notice within the Application</li>
+            <li>Sending you an email or push notification</li>
+            <li>Posting an update on our website</li>
+        </ul>
+        
+        <p>Your continued use of Sporty after the changes will signify your acceptance of the updated terms. If you do not wish to continue using the Application under the new version of the Agreements, you may terminate your account by contacting us or uninstalling the Application.</p>
+        
+        <h2>3. Account Registration and Security</h2>
+        
+        <h3>3.1 Account Creation</h3>
+        <p>To use certain features of Sporty, you must create an account by providing:</p>
+        <ul>
+            <li>Valid email address or phone number</li>
+            <li>Full name</li>
+            <li>Password</li>
+            <li>Optional profile information (photo, preferences, etc.)</li>
+        </ul>
+        
+        <p>You agree to provide accurate, current, and complete information during registration and to update such information to keep it accurate, current, and complete.</p>
+        
+        <h3>3.2 Account Security</h3>
+        <p>You are responsible for:</p>
+        <ul>
+            <li>Maintaining the confidentiality of your account credentials</li>
+            <li>All activities that occur under your account</li>
+            <li>Notifying us immediately of any unauthorized use of your account</li>
+            <li>Ensuring you log out from your account at the end of each session</li>
+        </ul>
+        
+        <p>Sporty will not be liable for any loss or damage arising from your failure to maintain account security.</p>
+        
+        <h3>3.3 User Roles</h3>
+        <p>Sporty supports multiple user roles:</p>
+        <ul>
+            <li><strong>Players:</strong> Users who book courts and participate in games</li>
+            <li><strong>Court Owners:</strong> Users who list and manage sports courts and facilities</li>
+            <li><strong>Co-Owners:</strong> Users with shared management rights for specific courts</li>
+            <li><strong>Moderators:</strong> Users with limited administrative privileges for specific courts</li>
+            <li><strong>Administrators:</strong> Platform administrators with full access rights</li>
+        </ul>
+        
+        <p>Each role has specific rights and responsibilities as detailed in the Application.</p>
+        
+        <h2>4. Sporty Services</h2>
+        
+        <h3>4.1 Court Booking Services</h3>
+        <p>Sporty provides a platform for users to:</p>
+        <ul>
+            <li>Search and discover sports courts and facilities</li>
+            <li>View court availability, pricing, and amenities</li>
+            <li>Book courts for specific dates and times</li>
+            <li>Receive booking confirmations and reminders</li>
+            <li>Rate and review courts and facilities</li>
+            <li>Track booking history and statistics</li>
+        </ul>
+        
+        <h3>4.2 Court Owner Services</h3>
+        <p>Court owners can:</p>
+        <ul>
+            <li>List and manage their sports courts and facilities</li>
+            <li>Set pricing, availability, and booking rules</li>
+            <li>Upload court images and descriptions</li>
+            <li>Manage bookings and accept/reject reservation requests</li>
+            <li>View analytics and earnings reports</li>
+            <li>Add co-owners and moderators</li>
+            <li>Respond to reviews and ratings</li>
+        </ul>
+        
+        <h3>4.3 Payment Processing</h3>
+        <p>Sporty facilitates payments for court bookings through integrated payment processors. By using our payment services, you agree to:</p>
+        <ul>
+            <li>Provide accurate payment information</li>
+            <li>Pay all applicable fees and charges</li>
+            <li>Comply with the payment processor's terms and conditions</li>
+            <li>Accept our refund and cancellation policies</li>
+        </ul>
+        
+        <h3>4.4 Location Services</h3>
+        <p>Sporty uses your device's location to:</p>
+        <ul>
+            <li>Show nearby courts and facilities</li>
+            <li>Provide distance estimates and directions</li>
+            <li>Offer location-based recommendations</li>
+            <li>Improve service quality and user experience</li>
+        </ul>
+        
+        <p>You can control location permissions through your device settings, but this may limit certain features.</p>
+        
+        <h2>5. Booking Policies</h2>
+        
+        <h3>5.1 Booking Confirmation</h3>
+        <p>When you make a booking through Sporty:</p>
+        <ul>
+            <li>You enter into a direct contract with the court owner</li>
+            <li>Sporty acts as a platform facilitating the transaction</li>
+            <li>Bookings are subject to court owner acceptance (for request-based bookings)</li>
+            <li>You will receive confirmation via email, push notification, or in-app notification</li>
+        </ul>
+        
+        <h3>5.2 Cancellation and Refund Policy</h3>
+        <p>Cancellation policies vary by court and are set by individual court owners. Generally:</p>
+        <ul>
+            <li>Cancellations made 24+ hours before booking time may receive a full or partial refund</li>
+            <li>Cancellations made less than 24 hours before booking may not be refundable</li>
+            <li>No-shows typically result in forfeiture of payment</li>
+            <li>Weather-related cancellations are subject to court owner policies</li>
+            <li>Emergency cancellations will be evaluated on a case-by-case basis</li>
+        </ul>
+        
+        <p>Specific cancellation terms will be displayed before you complete your booking.</p>
+        
+        <h3>5.3 Payment Terms</h3>
+        <ul>
+            <li>Payment is processed at the time of booking or as specified by the court owner</li>
+            <li>All prices are displayed in the local currency</li>
+            <li>Sporty may charge a service fee or commission on bookings</li>
+            <li>You are responsible for any applicable taxes</li>
+            <li>Refunds (when applicable) will be processed to your original payment method</li>
+        </ul>
+        
+        <h3>5.4 Booking Disputes</h3>
+        <p>If you have a dispute regarding a booking:</p>
+        <ul>
+            <li>Contact the court owner directly through the Application</li>
+            <li>If unresolved, contact Sporty customer support at kicksetgoo@gmail.com</li>
+            <li>Provide relevant details (booking ID, date, issue description)</li>
+            <li>Sporty will investigate and attempt to mediate the dispute</li>
+            <li>Final decisions on refunds rest with Sporty's discretion</li>
+        </ul>
+        
+        <h2>6. Court Owner Obligations</h2>
+        
+        <h3>6.1 Listing Requirements</h3>
+        <p>If you list a court on Sporty, you agree to:</p>
+        <ul>
+            <li>Provide accurate, complete, and current information about your facility</li>
+            <li>Use high-quality, authentic photos of your courts</li>
+            <li>Set fair and transparent pricing</li>
+            <li>Honor all confirmed bookings</li>
+            <li>Maintain your courts in safe, playable condition</li>
+            <li>Comply with all applicable laws, regulations, and permits</li>
+            <li>Respond promptly to booking requests and user inquiries</li>
+        </ul>
+        
+        <h3>6.2 Court Owner Responsibilities</h3>
+        <ul>
+            <li>Ensure your facility meets all safety and legal requirements</li>
+            <li>Maintain appropriate insurance coverage</li>
+            <li>Handle booking confirmations and cancellations professionally</li>
+            <li>Provide quality customer service to users</li>
+            <li>Update availability calendars promptly</li>
+            <li>Resolve disputes with users in good faith</li>
+        </ul>
+        
+        <h3>6.3 Payment to Court Owners</h3>
+        <p>Court owners will receive payment for bookings according to the following terms:</p>
+        <ul>
+            <li>Sporty will deduct applicable service fees and commissions</li>
+            <li>Payments are processed on a regular schedule (weekly, monthly, etc.)</li>
+            <li>You must provide valid payment account information</li>
+            <li>You are responsible for reporting income and paying applicable taxes</li>
+        </ul>
+        
+        <h2>7. User Conduct and Prohibited Activities</h2>
+        <p>Sporty respects all laws, agreements, and intellectual property rights, and we expect you to do the same. The following actions are strictly prohibited:</p>
+        
+        <ul>
+            <li>Using the Application for any illegal activities</li>
+            <li>Providing false or misleading information</li>
+            <li>Creating fake accounts or impersonating others</li>
+            <li>Attempting to reverse-engineer, decompile, or modify the Application</li>
+            <li>Circumventing security measures or technical limitations</li>
+            <li>Using automated tools (bots, scrapers) to access the Application</li>
+            <li>Sharing account credentials or accessing others' accounts without permission</li>
+            <li>Uploading malicious content (malware, viruses, etc.)</li>
+            <li>Harassing, threatening, or harming other users</li>
+            <li>Posting offensive, illegal, or inappropriate content</li>
+            <li>Manipulating ratings or reviews</li>
+            <li>Engaging in fraudulent booking or payment activities</li>
+            <li>Discriminating against users based on protected characteristics</li>
+            <li>Violating intellectual property rights</li>
+            <li>Interfering with the operation of the Application</li>
+        </ul>
+        
+        <p>Violation of these guidelines may result in immediate termination or suspension of your Sporty account without prior notice, and may result in legal action.</p>
+        
+        <h2>8. User-Generated Content</h2>
+        
+        <h3>8.1 Content Ownership</h3>
+        <p>You retain ownership of all content you submit to Sporty, including:</p>
+        <ul>
+            <li>Profile information and photos</li>
+            <li>Court listings and descriptions</li>
+            <li>Reviews and ratings</li>
+            <li>Comments and feedback</li>
+        </ul>
+        
+        <h3>8.2 License to Use Content</h3>
+        <p>By submitting content to Sporty, you grant us a worldwide, non-exclusive, royalty-free license to:</p>
+        <ul>
+            <li>Use, reproduce, modify, and display your content</li>
+            <li>Distribute your content within the Application</li>
+            <li>Create derivative works for operational purposes</li>
+            <li>Promote and market Sporty using your content</li>
+        </ul>
+        
+        <p>This license continues even if you stop using Sporty, but you may request removal of specific content by contacting us.</p>
+        
+        <h3>8.3 Content Standards</h3>
+        <p>All user-generated content must:</p>
+        <ul>
+            <li>Be accurate and truthful</li>
+            <li>Comply with applicable laws and regulations</li>
+            <li>Not infringe on intellectual property rights</li>
+            <li>Not contain offensive, harmful, or inappropriate material</li>
+            <li>Be relevant to the Sporty platform and its purpose</li>
+        </ul>
+        
+        <h3>8.4 Content Moderation</h3>
+        <p>Sporty reserves the right to:</p>
+        <ul>
+            <li>Review, monitor, and remove any user-generated content</li>
+            <li>Edit content for clarity or compliance</li>
+            <li>Suspend or ban users who violate content standards</li>
+            <li>Report illegal content to appropriate authorities</li>
+        </ul>
+        
+        <h2>9. Reviews and Ratings</h2>
+        
+        <h3>9.1 Review Guidelines</h3>
+        <p>When submitting reviews, you agree to:</p>
+        <ul>
+            <li>Provide honest, accurate feedback based on personal experience</li>
+            <li>Not post fake, misleading, or manipulated reviews</li>
+            <li>Not include offensive, discriminatory, or inappropriate content</li>
+            <li>Not violate others' privacy or disclose confidential information</li>
+            <li>Not post reviews in exchange for compensation (unless disclosed)</li>
+        </ul>
+        
+        <h3>9.2 Court Owner Responses</h3>
+        <p>Court owners may respond to reviews. Responses must:</p>
+        <ul>
+            <li>Be professional and respectful</li>
+            <li>Address legitimate concerns constructively</li>
+            <li>Not contain personal attacks or threats</li>
+            <li>Comply with all applicable laws and regulations</li>
+        </ul>
+        
+        <h2>10. Intellectual Property Rights</h2>
+        <p>Sporty and all associated intellectual property, including trademarks, patents, copyrights, proprietary code, design elements, and branding ("Sporty Intellectual Property"), are the exclusive property of Umair Khalid Siddique, Mesum Hussain Qureshi, and Sporty.</p>
+        
+        <p>We grant you a limited, non-exclusive, non-transferable, and revocable license to use the Sporty Application solely for booking sports courts and related services ("License"). This License remains effective until terminated by you or Sporty.</p>
+        
+        <h3>10.1 Restrictions</h3>
+        <p>Except for the rights explicitly granted in these Agreements, you must not:</p>
+        <ul>
+            <li>Modify, rent, sell, distribute, or create derivative works based on Sporty</li>
+            <li>Reverse-engineer, decompile, or disassemble the Application</li>
+            <li>Remove or alter any copyright, trademark, or intellectual property notices</li>
+            <li>Transfer or sublicense the Application to any third party</li>
+            <li>Use Sporty's name, logo, or branding without permission</li>
+            <li>Use the Application for any illegal or unauthorized purpose</li>
+        </ul>
+        
+        <h2>11. Third-Party Services</h2>
+        <p>Sporty integrates with certain third-party services to provide enhanced functionality:</p>
+        
+        <h3>11.1 Firebase Services</h3>
+        <p>We use Google Firebase for:</p>
+        <ul>
+            <li>User authentication and account management</li>
+            <li>Cloud database storage (Firestore)</li>
+            <li>Image and file storage</li>
+            <li>Push notifications</li>
+        </ul>
+        
+        <h3>11.2 Google Maps</h3>
+        <p>Location services and mapping are provided by Google Maps API, subject to Google's terms of service.</p>
+        
+        <h3>11.3 Payment Processors</h3>
+        <p>Payment processing is handled by third-party services (e.g., Stripe, PayPal) with their own terms and privacy policies.</p>
+        
+        <h3>11.4 Third-Party Liability</h3>
+        <p>Sporty is not responsible or liable for any third-party services, their content, or their practices. Your use of third-party services is governed by their respective terms and policies.</p>
+        
+        <h2>12. Service Limitations and Modifications</h2>
+        <p>Sporty will make reasonable efforts to ensure the continuous operation of the Application. However, technical difficulties, maintenance, updates, or changes in laws and regulations may result in temporary interruptions.</p>
+        
+        <p>We reserve the right to:</p>
+        <ul>
+            <li>Modify or discontinue features of the Application, temporarily or permanently</li>
+            <li>Implement usage limits or restrictions</li>
+            <li>Update the Application to comply with legal or regulatory requirements</li>
+            <li>Interrupt service for maintenance or improvements</li>
+            <li>Change pricing and fees with advance notice</li>
+        </ul>
+        
+        <p>We will provide advance notice where possible, but Sporty shall not be liable for any interruption, modification, or discontinuation of the Application or its features, except where prohibited by law.</p>
+        
+        <h2>13. Customer Support</h2>
+        <p>For customer support inquiries, questions, or issues related to Sporty, please contact us at:</p>
+        <p><strong>Email:</strong> kicksetgoo@gmail.com</p>
+        
+        <p>While we will make reasonable efforts to respond to all inquiries within a reasonable timeframe, we do not guarantee specific response times.</p>
+        
+        <h2>14. Term and Termination</h2>
+        <p>These Terms of Service will remain in effect until terminated by either you or Sporty.</p>
+        
+        <h3>14.1 Termination by You</h3>
+        <p>You may terminate your agreement with us at any time by:</p>
+        <ul>
+            <li>Uninstalling the Application from your device</li>
+            <li>Deleting your account through the Application settings</li>
+            <li>Contacting us to request account deletion</li>
+        </ul>
+        
+        <h3>14.2 Termination by Us</h3>
+        <p>We may terminate or suspend your access to Sporty immediately, without prior notice or liability, for any reason, including but not limited to:</p>
+        <ul>
+            <li>Breach of these Terms of Service</li>
+            <li>Violation of applicable laws or regulations</li>
+            <li>Fraudulent or illegal activity</li>
+            <li>Abuse of the Application or its features</li>
+            <li>Repeated user complaints or negative behavior</li>
+            <li>Non-payment of fees or charges</li>
+        </ul>
+        
+        <h3>14.3 Effect of Termination</h3>
+        <p>Upon termination:</p>
+        <ul>
+            <li>Your license to use Sporty will immediately cease</li>
+            <li>You must stop using the Application and may delete it from your device</li>
+            <li>You will lose access to your account and all associated data</li>
+            <li>Pending bookings may be canceled</li>
+            <li>Outstanding payments remain due and payable</li>
+            <li>No refunds will be provided for any amounts already paid, to the fullest extent permitted by law</li>
+            <li>Certain provisions (including liability limitations, disclaimers, and indemnification) will survive termination</li>
+        </ul>
+        
+        <h2>15. Warranty Disclaimer</h2>
+        <p>YOU UNDERSTAND AND AGREE THAT THE SPORTY APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT ANY EXPRESS OR IMPLIED WARRANTY OR CONDITION OF ANY KIND.</p>
+        
+        <p>To the fullest extent permitted by law, Sporty disclaims all warranties, including but not limited to:</p>
+        <ul>
+            <li>Merchantability, fitness for a particular purpose, or non-infringement</li>
+            <li>Uninterrupted, secure, or error-free operation</li>
+            <li>Accuracy or reliability of information, bookings, or court listings</li>
+            <li>Freedom from malware or harmful components</li>
+            <li>Compatibility with all devices or operating systems</li>
+        </ul>
+        
+        <p>Sporty does not guarantee that:</p>
+        <ul>
+            <li>The Application will meet your specific requirements</li>
+            <li>Courts listed will be available or as described</li>
+            <li>Bookings will be confirmed or honored</li>
+            <li>The Application will be available at all times</li>
+            <li>Defects will be corrected</li>
+            <li>User reviews are accurate or reliable</li>
+        </ul>
+        
+        <p>This section applies to the fullest extent permitted by applicable law and does not affect your statutory rights as a consumer.</p>
+        
+        <h2>16. Limitation of Liability</h2>
+        <p>TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL SPORTY, ITS OWNERS, EMPLOYEES, AGENTS, AFFILIATES, OR LICENSORS BE LIABLE FOR:</p>
+        
+        <ol>
+            <li>Any indirect, incidental, special, consequential, punitive, or exemplary damages, including but not limited to damages for loss of profits, data, use, goodwill, or other intangible losses;</li>
+            <li>Any damages resulting from:
+                <ul>
+                    <li>Your use or inability to use the Application</li>
+                    <li>Unauthorized access to or alteration of your content</li>
+                    <li>Technical issues or interruptions</li>
+                    <li>Errors in court information or bookings</li>
+                    <li>Third-party services or content</li>
+                    <li>User conduct or content</li>
+                    <li>Canceled, denied, or unfulfilled bookings</li>
+                    <li>Disputes between users and court owners</li>
+                    <li>Injuries or accidents occurring at court facilities</li>
+                </ul>
+            </li>
+            <li>Aggregate liability for all claims exceeding the amounts you paid to Sporty in the twelve (12) months prior to the claim.</li>
+        </ol>
+        
+        <p>Some jurisdictions do not allow the exclusion or limitation of certain damages, so some of the above limitations may not apply to you.</p>
+        
+        <h3>16.1 Relationship Between Users and Court Owners</h3>
+        <p>Sporty acts solely as a platform connecting users with court owners. We are not a party to the agreements between users and court owners. Court owners are independent third parties, not employees or agents of Sporty.</p>
+        
+        <h3>16.2 Time Limit for Claims</h3>
+        <p>Any claim against Sporty must be commenced within one (1) year after the date you first knew or reasonably should have known of the act, omission, or default giving rise to the claim. Failure to assert a claim within this time period shall result in the loss of any right to remedy for that claim.</p>
+        
+        <h2>17. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless Sporty, its owners, employees, agents, and affiliates from and against all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorney fees) arising out of or related to:</p>
+        <ul>
+            <li>Your use of the Application</li>
+            <li>Your breach of these Terms of Service</li>
+            <li>Your violation of any law or regulation</li>
+            <li>Your violation of any rights of a third party, including intellectual property rights</li>
+            <li>Any content you submit or post</li>
+            <li>Bookings you make or facilitate</li>
+            <li>Your interactions with other users</li>
+            <li>Your operation of a court or facility listed on Sporty</li>
+        </ul>
+        
+        <h2>18. Governing Law and Dispute Resolution</h2>
+        
+        <h3>18.1 Governing Law</h3>
+        <p>These Terms of Service shall be governed by and construed in accordance with the laws of the jurisdiction in which the owners reside, without regard to conflict of law principles.</p>
+        
+        <p>Any disputes arising from these Terms or your use of Sporty shall be resolved in the courts of competent jurisdiction in that location.</p>
+        
+        <h3>18.2 Informal Resolution</h3>
+        <p>If you have any dispute with Sporty, we encourage you to contact us first at kicksetgoo@gmail.com to attempt to resolve the issue informally.</p>
+        
+        <h3>18.3 Arbitration</h3>
+        <p>If we cannot resolve the dispute informally, you and Sporty agree that any dispute, claim, or controversy will be resolved through binding arbitration or small claims court, rather than in courts of general jurisdiction.</p>
+        
+        <h3>18.4 Class Action Waiver</h3>
+        <p>YOU AND SPORTY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING.</p>
+        
+        <p>The arbitrator may not consolidate more than one person's claims or preside over any form of representative or class proceeding.</p>
+        
+        <h2>19. General Provisions</h2>
+        
+        <h3>19.1 Entire Agreement</h3>
+        <p>These Terms of Service, together with our Privacy Policy and any other agreements you enter into with Sporty, constitute the entire agreement between you and Sporty and supersede any prior agreements, whether written or oral.</p>
+        
+        <h3>19.2 Severability and Waiver</h3>
+        <p>If any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permitted by law, and the remaining provisions will remain in full force and effect.</p>
+        
+        <p>The failure of Sporty to enforce any right or provision of these Terms will not constitute a waiver of that right or provision.</p>
+        
+        <h3>19.3 Assignment</h3>
+        <p>Sporty may assign these Terms or any rights under them without restriction. You may not assign these Terms or transfer any rights to any third party without our prior written consent.</p>
+        
+        <h3>19.4 Force Majeure</h3>
+        <p>Sporty shall not be liable for any failure or delay in performance due to circumstances beyond our reasonable control, including acts of God, natural disasters, war, terrorism, pandemics, government actions, or technical failures.</p>
+        
+        <h2>20. App Store Terms</h2>
+        <p>If you download Sporty from the Apple App Store, you acknowledge and agree that:</p>
+        <ul>
+            <li>These Terms are between you and Sporty, not Apple</li>
+            <li>Apple has no obligation to provide maintenance or support services</li>
+            <li>Apple is not responsible for addressing any claims related to the Application</li>
+            <li>Apple is a third-party beneficiary of these Terms and may enforce them against you</li>
+        </ul>
+        
+        <p>Similar terms apply for downloads from the Google Play Store.</p>
+        
+        <div class="contact-box">
+            <h2>Questions or Concerns?</h2>
+            <p>We're here to help! If you have any questions about these Terms of Service, please don't hesitate to reach out.</p>
+            <a href="mailto:kicksetgoo@gmail.com">Contact Us</a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 Sporty. All rights reserved.</p>
+            <p>These Terms of Service are effective as of November 13, 2025.</p>
+            <p>By using Sporty, you acknowledge that you have read, understood, and agree to be bound by these Terms.</p>
+        </div>
+    </div>
+</body>
+</html>
