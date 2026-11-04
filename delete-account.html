@@ -1,0 +1,129 @@
+<!doctype html>
+<!-- LAWYER REVIEW NEEDED before launch. Keep the steps and the list of what is deleted the same as
+     src/content/privacy.ts and the app. This comment is not shown on the page. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete your Sporty account</title>
+  <meta name="description" content="How to delete your Sporty account, and what is deleted.">
+  <style>
+    :root {
+      --ink: #0F172A;
+      --soft: #334155;
+      --muted: #64748B;
+      --line: #E2E8F0;
+      --page: #FFFFFF;
+      --card: #FFFFFF;
+      --blue: #0D3282;
+      --blue-wash: #E7ECF7;
+      --red: #DC2626;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #F1F5F9;
+        --soft: #CBD5E1;
+        --muted: #94A3B8;
+        --line: #1E293B;
+        --page: #0B1220;
+        --card: #111A2E;
+        --blue: #7CA3F0;
+        --blue-wash: #16233F;
+        --red: #F87171;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--page);
+      color: var(--soft);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 16px 64px; }
+    .brand { font-weight: 900; letter-spacing: 0.04em; color: var(--blue); font-size: 20px; margin: 0 0 32px; }
+    h1 { color: var(--ink); font-size: 30px; line-height: 1.2; margin: 0 0 12px; }
+    h2 { color: var(--ink); font-size: 20px; line-height: 1.3; margin: 40px 0 12px; }
+    p { margin: 0 0 12px; }
+    .lead { font-size: 18px; }
+    ol.steps { list-style: none; padding: 0; margin: 20px 0 0; counter-reset: step; }
+    ol.steps li {
+      counter-increment: step;
+      position: relative;
+      padding: 16px 16px 16px 60px;
+      margin-bottom: 10px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: 0px 1px 3px rgba(15, 23, 42, 0.06), 0px 6px 18px rgba(15, 23, 42, 0.06);
+      color: var(--ink);
+    }
+    ol.steps li::before {
+      content: counter(step);
+      position: absolute;
+      left: 16px;
+      top: 14px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 30px;
+      text-align: center;
+    }
+    ul { padding-left: 22px; margin: 0 0 12px; }
+    li { margin-bottom: 6px; }
+    .note {
+      background: var(--blue-wash);
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 20px;
+      color: var(--ink);
+    }
+    .warn { color: var(--red); font-weight: 600; }
+    footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">SPORTY</p>
+    <h1>Delete your Sporty account</h1>
+    <p class="lead">You can delete your account yourself, in the app, at any time. It takes less than a minute.</p>
+
+    <h2>How to delete it in the app</h2>
+    <ol class="steps">
+      <li>Open Sporty and sign in.</li>
+      <li>Tap <strong>Profile</strong> at the bottom of the screen.</li>
+      <li>Tap <strong>Settings</strong>.</li>
+      <li>Tap <strong>Delete my account</strong>, then tap <strong>Delete account</strong> to confirm.</li>
+    </ol>
+    <p class="note">Want a copy of your data first? In the app, tap <strong>Profile</strong>, then <strong>Download my data</strong>.</p>
+
+    <h2>What is deleted</h2>
+    <ul>
+      <li>Your account and sign in.</li>
+      <li>Your name, profile picture and contact phone number.</li>
+      <li>Your place in teams and in games you joined.</li>
+      <li>Venues you saved, plans you had at venues, and your points and badges.</li>
+      <li>The notification tokens for your phones.</li>
+    </ul>
+    <p class="warn">Deleting cannot be undone.</p>
+
+    <h2>What stays, with no name on it</h2>
+    <ul>
+      <li>Your future bookings are cancelled, so the courts are free for others.</li>
+      <li>Past bookings stay with the venue for its records, marked "Deleted player".</li>
+      <li>Messages and reviews you wrote stay where they are, with no name on them, so chats and venue ratings still make sense.</li>
+    </ul>
+
+    <h2>If you run a venue</h2>
+    <p>A venue has players and staff who depend on it. Hand your venue over to someone else first, then delete your account.</p>
+
+    <h2>Cannot open the app?</h2>
+    <p>Write to us and we will delete your account for you: <a href="mailto:kicksetgoo@gmail.com">kicksetgoo@gmail.com</a>.</p>
+
+    <footer>Sporty, court booking in Pakistan. Last updated 4 November 2026.</footer>
+  </main>
+</body>
+</html>
